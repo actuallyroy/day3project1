@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Roll the dice</title>
+</head>
+<body>
+    <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ffffff" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="127.9" cy="48" r="24" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="128" y1="108" x2="128" y2="152" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><polyline points="64 224 128 152 192 224" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline><path d="M32,132s40-24,96-24,96,24,96,24" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path></svg>
+        Player one: <span id="player1">0</span>
+    </span>
+    <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ffffff" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="127.9" cy="48" r="24" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="128" y1="108" x2="128" y2="152" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><polyline points="64 224 128 152 192 224" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline><path d="M32,132s40-24,96-24,96,24,96,24" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path></svg>
+        Player two: <span id="player2">0</span>
+    </span>
+    <span class="turnText" >Players one's turn</span>
+    <div class="dice">
+        <img class="dices" src="dice  (1).jpg">
+        <img class="dices" src="dice  (2).jpg">
+        <img class="dices" src="dice  (3).jpg">
+        <img class="dices" src="dice  (4).jpg">
+        <img class="dices" src="dice  (5).jpg">
+        <img style="display: block;" class="dices" src="dice  (6).jpg">
+    </div>
+    
+    <button id="roll-button" class="roll-button">Roll the dice!</button>
+    <span id="winTxt">Player one wins</span>
+    <script src="script.js"></script>
+</body>
+</html>
