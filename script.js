@@ -32,8 +32,8 @@ rollBtn.onclick = () => {
     if(p1 >= 30){
         winTxt.style.visibility = 'visible';
         winTxt.innerHTML = "Player one wins"
-        
-    }else if(p2 > 30){
+
+    }else if(p2 >= 30){
         winTxt.style.visibility = 'visible';
         winTxt.innerHTML = "Player two wins"
     }
